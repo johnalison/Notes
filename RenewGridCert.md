@@ -30,9 +30,10 @@ https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookStartingGrid#ObtainingCer
 
 9) > openssl pkcs12 -in myCertificate.p12 -nocerts -out userkey.pem
    [Have to give cert pwd]
-   [Then create/veriffiy PEM pasa phrase (asd
+   [Then create/veriffiy PEM pasa phrase (asd...)
 
 10)
+
   > chmod 400 userkey.pem
   > chmod 400 usercert.pem
       

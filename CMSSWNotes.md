@@ -17,18 +17,21 @@ Then click on the bottom left triangle of lines in the "L1 Algo Triggers" box. T
 
 ## xrood prefixes
 
-  - `root://cmsxrootd-site.fnal.gov/` - to read from eos on FNAL
+  - to read from eos on FNAL
+     - `root://cmsxrootd-site.fnal.gov/` 
 
   - `root://cmseos.fnal.gov/` - to write to eos on FNAL
 
   - `root://cms-xrd-global.cern.ch/`  - global redirect
 
 
-## MAkeing NanoAODs
+## Making NanoAODs
 
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD#Running_on_various_datasets_from
 
+```
 > myNanoProdMc -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --no_exec --conditions 102X_upgrade2018_realistic_v20 --era Run2_2018,run2_nanoAOD_102Xv1
+```
 
 ## Determining Global Tags 
 

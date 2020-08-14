@@ -30,12 +30,11 @@ https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD#Running_on_variou
 
 ## Determining Global Tags 
 
-  - Hot-tip: global tag is in the dataset now. 
+  - Hot-tip: global tag is often in the file or dataset name. 
 
+  - Gool links Table:
+https://twiki.cern.ch/twiki/bin/viewauth/CMS/PdmVAnalysisSummaryTable
 https://twiki.cern.ch/twiki/bin/view/CMS/PdmV2018Analysis
-
-or
-
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideFrontierConditions
 
 
@@ -48,3 +47,10 @@ Get the parent file from a file name
 > dasgoclient -query="parent file=/store/mc/RunIIAutumn18NanoAODv5/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19-v1/250000/14933F79-95FB-354D-A917-E19B5C005037.root"  
 
 ## To dump python
+
+process.dumpPython() 
+
+## Crab
+
+configuration file
+https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile

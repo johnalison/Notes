@@ -2,7 +2,7 @@
  In a release set up on lxplus
   > hltGetConfiguration orcoff:/cdaq/physics/Run2018/2e34/v3.6.1/HLT/V2 > hlt_menu_2018.py
 
-where /cdaq/physics/Run2018/2e34/v3.6.1/HLT/V2 is the HLT key your interested in
+where =/cdaq/physics/Run2018/2e34/v3.6.1/HLT/V2= is the HLT key your interested in
 
 The HLT Key can be found from the run report in data
 eg:

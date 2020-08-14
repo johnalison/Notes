@@ -32,7 +32,8 @@ https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD#Running_on_variou
 
   - Hot-tip: global tag is often in the file or dataset name. 
 
-  - Gool links Table:
+  - Good links:
+
       https://twiki.cern.ch/twiki/bin/viewauth/CMS/PdmVAnalysisSummaryTable
       
       https://twiki.cern.ch/twiki/bin/view/CMS/PdmV2018Analysis

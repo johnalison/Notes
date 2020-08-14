@@ -37,3 +37,14 @@ https://twiki.cern.ch/twiki/bin/view/CMS/PdmV2018Analysis
 or
 
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideFrontierConditions
+
+
+## DAS
+
+Get the dataset from the file name
+> dasgoclient -query="dataset file=/store/mc/RunIIAutumn18NanoAODv5/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19-v1/250000/14933F79-95FB-354D-A917-E19B5C005037.root"
+
+Get the parent file from a file name
+> dasgoclient -query="parent file=/store/mc/RunIIAutumn18NanoAODv5/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19-v1/250000/14933F79-95FB-354D-A917-E19B5C005037.root"  
+
+## To dump python

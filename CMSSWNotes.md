@@ -17,9 +17,11 @@ Then click on the bottom left triangle of lines in the "L1 Algo Triggers" box. T
 
 ## xrood prefixes
 
-root://cmsxrootd-site.fnal.gov/ - to read from eos on FNAL
-to write to eos on FNAL
-root://cms-xrd-global.cern.ch/  - global redirect
+  - `root://cmsxrootd-site.fnal.gov/` - to read from eos on FNAL
+
+  - `root://cmseos.fnal.gov/` - to write to eos on FNAL
+
+  - `root://cms-xrd-global.cern.ch/`  - global redirect
 
 
 ## MAkeing NanoAODs

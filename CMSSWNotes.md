@@ -17,15 +17,15 @@ Then click on the bottom left triangle of lines in the "L1 Algo Triggers" box. T
 
 ## xrood prefixes
 
-  - To read from eos on FNAL
+- To read from eos on FNAL
 
    `root://cmsxrootd-site.fnal.gov/` 
 
-  - To write to eos on FNAL
+- To write to eos on FNAL
 
    `root://cmseos.fnal.gov/` 
 
-  - Global redirect
+- Global redirect
 
    `root://cms-xrd-global.cern.ch/`
 

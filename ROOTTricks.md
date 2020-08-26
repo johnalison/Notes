@@ -47,6 +47,9 @@ Following should fix it:
 ```python
 import optparse
 parser = optparse.OptionParser()
-parser.add_option('-l', '--loop',           action="store_true", dest="doLoop",         default=False, help="Run in loop mode")
+parser.add_option('-o', '--outputDir',           help="OutputDir")
 o, a = parser.parse_args()
+
+if not os.path.isdir(o.outputDir):
+    os.mkdir(o.outputDir)
 ```  

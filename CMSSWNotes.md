@@ -21,9 +21,11 @@ Then click on the bottom left triangle of lines in the "L1 Algo Triggers" box. T
 
 ## xrood prefixes
 
-- To read from eos on FNAL
+- You should use the following to access files in the US.
 
-   `root://cmsxrootd-site.fnal.gov/` 
+   'root://cmsxrootd.fnal.gov'
+
+('root:://cmsxrootd-site.fnal.gov' is restricted to files in either T1_US_FNAL_Disk or T3_US_FNALLPC.)
 
 - To write to eos on FNAL
 

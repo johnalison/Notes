@@ -1,9 +1,15 @@
+## Grid certificate
+
+```
+voms-proxy-init -rfc -voms cms -valid 192:00
+```
+
 ## Getting a trigger menu:
 
 In a release set up on lxplus
 
 ```
-> hltGetConfiguration orcoff:/cdaq/physics/Run2018/2e34/v3.6.1/HLT/V2 > hlt_menu_2018.py
+hltGetConfiguration orcoff:/cdaq/physics/Run2018/2e34/v3.6.1/HLT/V2 > hlt_menu_2018.py
 ```
 
 where `/cdaq/physics/Run2018/2e34/v3.6.1/HLT/V2` is the HLT key your interested in
@@ -41,7 +47,7 @@ Then click on the bottom left triangle of lines in the "L1 Algo Triggers" box. T
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD#Running_on_various_datasets_from
 
 ```
-> myNanoProdMc -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --no_exec --conditions 102X_upgrade2018_realistic_v20 --era Run2_2018,run2_nanoAOD_102Xv1
+myNanoProdMc -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --no_exec --conditions 102X_upgrade2018_realistic_v20 --era Run2_2018,run2_nanoAOD_102Xv1
 ```
 
 ## Determining Global Tags 

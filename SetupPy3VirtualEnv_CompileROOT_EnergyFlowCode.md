@@ -1,6 +1,6 @@
 > python3 -m venv OT-metric-virtualenv
 
-> source my-virtualenv/bin/activate
+> source OT-metric-virtualenv/bin/activate
 
 > python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 
@@ -35,3 +35,21 @@
 > python -m pip install sklearn
 
 > python -m pip install tables
+
+
+
+# Round 2
+```python
+  python3 -m venv OT-metric-virtualenv-v2
+  source OT-metric-virtualenv-v2/bin/activate
+  python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose Cython POT
+  wget https://root.cern.ch/download/root_v6.22.02.source.tar.gz
+  tar -zxf root_v6.22.02.source.tar.gz 
+  mkdir root-6.22.02_builddir
+  cd root-6.22.02_builddir/
+  cmake ../root-6.22.02
+  cmake --build  .
+  source bin/thisroot.sh 
+  python -m pip install energyflow
+  python -m pip install seaborn root_numpy torch sklearn tables
+```

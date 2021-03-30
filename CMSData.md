@@ -35,8 +35,12 @@
 
 ## 2018
 
-2018A open -a /Applications/Google\ Chrome.app "https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=6733&cms_fill_from=6615&cms_fill_stableOnly=true"
-2018B open -a /Applications/Google\ Chrome.app "https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=6892&cms_fill_from=6734&cms_fill_stableOnly=true"
-2018C open -a /Applications/Google\ Chrome.app "https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=6991&cms_fill_from=6893&cms_fill_stableOnly=true"
-2018D open -a /Applications/Google\ Chrome.app "https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=7349&cms_fill_from=6993&cms_fill_stableOnly=true"
-2018E open -a /Applications/Google\ Chrome.app "https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=7394&cms_fill_from=7351&cms_fill_stableOnly=true"
+[2018 A](https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=6733&cms_fill_from=6615&cms_fill_stableOnly=true) 15 / fb 
+
+[2018 B](https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=6892&cms_fill_from=6734&cms_fill_stableOnly=true) 7 / fb 
+
+[2018 C](https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=6991&cms_fill_from=6893&cms_fill_stableOnly=true) 7 / fb 
+
+[2018 D](https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=7349&cms_fill_from=6993&cms_fill_stableOnly=true) 33 / fb 
+
+[2018 E](https://cmsoms.cern.ch/cms/runtimes/analysis?cms_fill_to=7394&cms_fill_from=7351&cms_fill_stableOnly=true) 0.003 / fb  (High Mu)

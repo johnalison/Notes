@@ -53,3 +53,9 @@
   python -m pip install energyflow
   python -m pip install seaborn root_numpy torch sklearn tables
 ```
+
+# Round 3
+> python3 -m ensurepip
+> python3 -m pip install jupyter
+> Reinatalled root
+> 

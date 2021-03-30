@@ -58,4 +58,4 @@
 > python3 -m ensurepip
 > python3 -m pip install jupyter
 > Reinatalled root
-> 
+> python3 -m pip install numpy
